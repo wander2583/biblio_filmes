@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react"
 import Moviecard from "../components/Moviecard"
 
+import './MoviesGrid.css'
+
 const moviesURL = import.meta.env.VITE_API
 const apiKey = import.meta.env.VITE_API_KEY
 
