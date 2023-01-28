@@ -9,6 +9,8 @@ BsHourglassSplit,
 BsFillFileEarmarkTextFill
 } from 'react-icons/bs'
 
+import './Movies.css'
+
 const moviesURL = import.meta.env.VITE_API
 const apiKey = import.meta.env.VITE_API_KEY
 
